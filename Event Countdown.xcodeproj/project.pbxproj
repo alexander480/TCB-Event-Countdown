@@ -58,13 +58,29 @@
 			children = (
 				E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */,
 				E53DBB9C224AF8D1006B0A32 /* ViewController.swift */,
+				E53DBBAF224AF91F006B0A32 /* User Interface */,
+				E53DBBB0224AF935006B0A32 /* Other */,
+			);
+			path = "Event Countdown";
+			sourceTree = "<group>";
+		};
+		E53DBBAF224AF91F006B0A32 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E53DBBA6224AF8D3006B0A32 /* LaunchScreen.storyboard */,
 				E53DBB9E224AF8D1006B0A32 /* Main.storyboard */,
 				E53DBBA4224AF8D3006B0A32 /* Assets.xcassets */,
-				E53DBBA6224AF8D3006B0A32 /* LaunchScreen.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		E53DBBB0224AF935006B0A32 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				E53DBBA9224AF8D3006B0A32 /* Info.plist */,
 				E53DBBA1224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld */,
 			);
-			path = "Event Countdown";
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,15 +304,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
-				INFOPLIST_FILE = "Event Countdown/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Event Countdown/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deltavel.Event-Countdown";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.eventCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,15 +323,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
-				INFOPLIST_FILE = "Event Countdown/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Event Countdown/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deltavel.Event-Countdown";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.eventCountdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
