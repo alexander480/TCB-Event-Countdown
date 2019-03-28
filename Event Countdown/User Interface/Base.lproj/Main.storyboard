@@ -12,7 +12,7 @@
         <!--Main-->
         <scene sceneID="ARs-ho-pnk">
             <objects>
-                <viewController storyboardIdentifier="MainVC" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ysc-wb-hH5" customClass="MainVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ysc-wb-hH5" customClass="MainVC" customModule="Event_Countdown" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hjb-Jb-VEV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,12 +86,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.53333333329999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <outlet property="countSubtitle" destination="brg-xA-P3l" id="7B8-TC-MEU"/>
-                                            <outlet property="countTitle" destination="68J-JM-0ho" id="sjZ-qu-aPU"/>
                                             <outlet property="daysLeft" destination="68J-JM-0ho" id="aMp-DC-n38"/>
                                             <outlet property="subtitle" destination="MyO-0s-ccg" id="qn0-jq-qcC"/>
                                             <outlet property="title" destination="yFd-xG-Y6k" id="SPF-QC-SiY"/>
-                                            <outlet property="view" destination="X6v-jh-oca" id="tmS-qO-Obu"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IconEventCell" rowHeight="78" id="ZcT-x5-VUW" customClass="IconEventCell" customModule="Event_Countdown" customModuleProvider="target">
@@ -170,13 +167,10 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.33333333329999998" green="0.53333333329999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <outlet property="countSubtitle" destination="3mk-ph-HdU" id="DQt-aY-uMd"/>
-                                            <outlet property="countTitle" destination="8Cn-ir-8YD" id="zjy-nf-Y6B"/>
                                             <outlet property="daysLeft" destination="8Cn-ir-8YD" id="zt6-vR-ldG"/>
                                             <outlet property="icon" destination="i8D-gn-41m" id="LTz-V2-mMx"/>
                                             <outlet property="subtitle" destination="9Zc-AG-g6n" id="ohO-6g-lVm"/>
                                             <outlet property="title" destination="hVN-1V-7Pd" id="svj-a5-eZh"/>
-                                            <outlet property="view" destination="GfE-zJ-FQ0" id="x8c-d5-saH"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -239,7 +233,7 @@
         <!--Create Event-->
         <scene sceneID="dI7-3x-vPh">
             <objects>
-                <viewController title="Create Event" id="SpF-Y4-EwC" customClass="CreateEventVC" sceneMemberID="viewController">
+                <viewController title="Create Event" id="SpF-Y4-EwC" customClass="CreateEventVC" customModule="Event_Countdown" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XSp-qU-oNN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -27,6 +27,9 @@ class CreateEventVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        
         let datePicker = UIDatePicker()
         let colorPicker = UIPickerView()
         let iconPicker = UIPickerView()
@@ -35,11 +38,11 @@ class CreateEventVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     // MARK: Table View
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        return UITableViewCell()
     }
     
     // MARK: Navigation
