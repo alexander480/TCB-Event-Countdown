@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5153404224C6018002987B1 /* CreateEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5153403224C6018002987B1 /* CreateEvent.swift */; };
+		E5153407224C6ADC002987B1 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5153406224C6ADC002987B1 /* Cells.swift */; };
 		E53DBB9B224AF8D1006B0A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */; };
-		E53DBB9D224AF8D1006B0A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53DBB9C224AF8D1006B0A32 /* ViewController.swift */; };
+		E53DBB9D224AF8D1006B0A32 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53DBB9C224AF8D1006B0A32 /* Main.swift */; };
 		E53DBBA0224AF8D1006B0A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53DBB9E224AF8D1006B0A32 /* Main.storyboard */; };
 		E53DBBA3224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53DBBA1224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld */; };
 		E53DBBA5224AF8D3006B0A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53DBBA4224AF8D3006B0A32 /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5153403224C6018002987B1 /* CreateEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEvent.swift; sourceTree = "<group>"; };
+		E5153406224C6ADC002987B1 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		E53DBB97224AF8D1006B0A32 /* Event Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E53DBB9C224AF8D1006B0A32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E53DBB9C224AF8D1006B0A32 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E53DBB9F224AF8D1006B0A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E53DBBA2224AF8D1006B0A32 /* Event_Countdown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Event_Countdown.xcdatamodel; sourceTree = "<group>"; };
 		E53DBBA4224AF8D3006B0A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5153405224C6AA3002987B1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E53DBB9C224AF8D1006B0A32 /* Main.swift */,
+				E5153403224C6018002987B1 /* CreateEvent.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		E53DBB8E224AF8D1006B0A32 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +69,8 @@
 		E53DBB99224AF8D1006B0A32 /* Event Countdown */ = {
 			isa = PBXGroup;
 			children = (
-				E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */,
-				E53DBB9C224AF8D1006B0A32 /* ViewController.swift */,
 				E53DBBAF224AF91F006B0A32 /* User Interface */,
+				E5153405224C6AA3002987B1 /* View Controllers */,
 				E53DBBB0224AF935006B0A32 /* Other */,
 			);
 			path = "Event Countdown";
@@ -77,6 +89,8 @@
 		E53DBBB0224AF935006B0A32 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				E5153406224C6ADC002987B1 /* Cells.swift */,
+				E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */,
 				E53DBBA9224AF8D3006B0A32 /* Info.plist */,
 				E53DBBA1224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld */,
 			);
@@ -155,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53DBBA3224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld in Sources */,
-				E53DBB9D224AF8D1006B0A32 /* ViewController.swift in Sources */,
+				E53DBB9D224AF8D1006B0A32 /* Main.swift in Sources */,
 				E53DBB9B224AF8D1006B0A32 /* AppDelegate.swift in Sources */,
+				E5153404224C6018002987B1 /* CreateEvent.swift in Sources */,
+				E5153407224C6ADC002987B1 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

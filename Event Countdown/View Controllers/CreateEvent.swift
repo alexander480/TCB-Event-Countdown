@@ -1,0 +1,52 @@
+
+//                                                     //
+//  CreateEventVC.swift                                //
+//  Event Countdown                                    //
+//                                                     //
+//  Created by Delta Vel on 3/26/19.                   //
+//  Copyright © 2019 Delta Vel. All rights reserved.   //
+//                                                     //
+
+import UIKit
+
+class CreateEventVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    // MARK: Variables
+    
+    // MARK: UI Elements
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var addButton: UIButton!
+    @IBAction func addButtonAction(_ sender: Any) {
+        
+    }
+    
+    // MARK: View Did Load
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let datePicker = UIDatePicker()
+        let colorPicker = UIPickerView()
+        let iconPicker = UIPickerView()
+    }
+    
+    // MARK: Table View
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    // MARK: Navigation
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let src = segue.source
+        let dst = segue.destination
+        // Pass Data From src -> dst
+    }
+}
