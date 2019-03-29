@@ -13,6 +13,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     // MARK: Variables
     
+    
     // MARK: UI Elements
     
     @IBOutlet weak var tableView: UITableView!
@@ -21,6 +22,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.tableView.delegate = self
         self.tableView.dataSource = self
     }

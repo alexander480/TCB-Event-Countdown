@@ -31,6 +31,7 @@ class CreateEventVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.tableView.dataSource = self
         
         // https://peterwitham.com/swift-archives/how-to-use-a-uipickerview-as-input-for-a-uitextfield/
+        
         let datePicker = UIDatePicker()
         let colorPicker = UIPickerView()
         let iconPicker = UIPickerView()

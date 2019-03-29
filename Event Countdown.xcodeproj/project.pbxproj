@@ -15,6 +15,8 @@
 		E53DBBA3224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53DBBA1224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld */; };
 		E53DBBA5224AF8D3006B0A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53DBBA4224AF8D3006B0A32 /* Assets.xcassets */; };
 		E53DBBA8224AF8D3006B0A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53DBBA6224AF8D3006B0A32 /* LaunchScreen.storyboard */; };
+		E5F42BDA224DBDC00031BF99 /* EventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42BD9224DBDC00031BF99 /* EventHelper.swift */; };
+		E5F42BDE224DC41E0031BF99 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42BDD224DC41E0031BF99 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E53DBBA4224AF8D3006B0A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53DBBA7224AF8D3006B0A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53DBBA9224AF8D3006B0A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F42BD9224DBDC00031BF99 /* EventHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHelper.swift; sourceTree = "<group>"; };
+		E5F42BDD224DC41E0031BF99 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			children = (
 				E53DBB9C224AF8D1006B0A32 /* Main.swift */,
 				E5153403224C6018002987B1 /* CreateEvent.swift */,
+				E5F42BDC224DBEBB0031BF99 /* Custom Cells */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -69,6 +74,7 @@
 		E53DBB99224AF8D1006B0A32 /* Event Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				E5F42BDB224DBDCD0031BF99 /* Core */,
 				E53DBBAF224AF91F006B0A32 /* User Interface */,
 				E5153405224C6AA3002987B1 /* View Controllers */,
 				E53DBBB0224AF935006B0A32 /* Other */,
@@ -89,12 +95,28 @@
 		E53DBBB0224AF935006B0A32 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E5153406224C6ADC002987B1 /* Cells.swift */,
+				E5F42BD9224DBDC00031BF99 /* EventHelper.swift */,
+				E5F42BDD224DC41E0031BF99 /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E5F42BDB224DBDCD0031BF99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
 				E53DBB9A224AF8D1006B0A32 /* AppDelegate.swift */,
 				E53DBBA9224AF8D3006B0A32 /* Info.plist */,
 				E53DBBA1224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld */,
 			);
-			path = Other;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E5F42BDC224DBEBB0031BF99 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E5153406224C6ADC002987B1 /* Cells.swift */,
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F42BDA224DBDC00031BF99 /* EventHelper.swift in Sources */,
 				E53DBBA3224AF8D1006B0A32 /* Event_Countdown.xcdatamodeld in Sources */,
 				E53DBB9D224AF8D1006B0A32 /* Main.swift in Sources */,
 				E53DBB9B224AF8D1006B0A32 /* AppDelegate.swift in Sources */,
 				E5153404224C6018002987B1 /* CreateEvent.swift in Sources */,
 				E5153407224C6ADC002987B1 /* Cells.swift in Sources */,
+				E5F42BDE224DC41E0031BF99 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
